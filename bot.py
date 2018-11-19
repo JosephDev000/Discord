@@ -22,7 +22,7 @@ async def dasnike():
 
 @client.command(pass_context=True) #Bot Version with Owner permission
 async def version(ctx):
-    if ctx.message.author.id ==os.environ['creatorid']
+    if ctx.message.author.id ==(os.environ['creatorid'])
         await client.say (bot_vesrion)
     else:
         await client.say("This command can only be used by the bot creator.")
