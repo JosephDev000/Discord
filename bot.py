@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 
 TOKEN = os.environ['token']
-ownerid = os.environ['creatorid']
+creatorid = os.environ['creatorid']
 
 client = commands.Bot(command_prefix = ".")
 client.remove_command("help")
