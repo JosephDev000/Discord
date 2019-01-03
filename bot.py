@@ -19,6 +19,10 @@ async def on_ready():
 @client.command() # .dasnike command
 async def dasnike():
 	await client.say("What you want bruh?")
+	
+@client.command() # .navarro command
+async def daddy():
+	await client.say("Navarro is daddy and mommy xxxx")
 
 @client.command(pass_context=True) #Bot Version with Owner permission
 async def info(ctx):
